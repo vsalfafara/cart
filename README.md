@@ -23,7 +23,7 @@ Create a file named <b>.env</b> in the project. Inside the file:
 Get:
  * http://localhost:3000/account
  * http://localhost:3000/account/id/<_id>
- * http://localhost:3000/account/email/<email>
+ * http://localhost:3000/account/email/<_email>
  * http://localhost:3000/business/<_id>
 
 Post
