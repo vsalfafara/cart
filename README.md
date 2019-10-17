@@ -11,7 +11,7 @@
 
 Create a file named <b>.env</b> in the project. Inside the file:
 ```bash
- DB_HOST = mongodb://localhost:27017/sandbox
+ DB_HOST = mongodb://localhost:27017/<name of db>
 ```
 
 ## Running The Server
