@@ -6,7 +6,7 @@ import { Schema } from '../schemas/business.schema';
 
 const mongoose = MongooseModule.forFeature([
   {
-    name: 'businesses',
+    name: 'business',
     schema: Schema
   }
 ])

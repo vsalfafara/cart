@@ -28,9 +28,9 @@ export class AccountService {
          console.log(error.message)
       }
    }
-   async getUser({ email, password }) {
+   async getUser({ email_address, password }) {
       try {
-         return await this.accounts.findOne({ 'email_address': email, 'password': password }).exec()
+         return await this.accounts.findOne({ 'email_address': email_address, 'password': password }).exec()
       }
       catch (error) {
          console.log(error.message)
