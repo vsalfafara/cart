@@ -22,4 +22,6 @@ export const Schema = new mongoose.Schema({
       date: Date
    }],
    account_id_ref: mongoose.Schema.Types.ObjectId
+}, {
+   collection: 'business'
 });

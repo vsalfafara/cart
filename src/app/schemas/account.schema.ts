@@ -10,4 +10,6 @@ export const Schema = new mongoose.Schema({
    date_created: Date,
    activated: Boolean,
    business_id_ref: String
+}, {
+   collection: 'account'
 });
