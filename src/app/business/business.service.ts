@@ -5,7 +5,7 @@ import { Business } from '../interfaces/business.interface'
 
 @Injectable()
 export class BusinessService {
-   constructor(@InjectModel('account') private readonly businesses: Model<Business>) { }
+   constructor(@InjectModel('business') private readonly businesses: Model<Business>) { }
 
    async all(): Promise<Business[]> {
       return await this.businesses.find().exec()
