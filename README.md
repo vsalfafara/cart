@@ -28,9 +28,9 @@ Get:
 
 Post
  * http://localhost:3000/account
-  * Any JSON Object
+    * Any JSON Object
  * http://localhost:3000/auth/
-  * {
+    * {
       "email_address": String,
       "password": String
     }
